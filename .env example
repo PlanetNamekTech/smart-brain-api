@@ -1,0 +1,2 @@
+CLARIFAI_KEY="<Your API Key Here>"
+POSTGRES_KEY="db pass"
