@@ -1,13 +1,11 @@
 const { response } = require('express');
 require('dotenv').config()
 
-console.log(process.env.POSTGRES_KEY)
-
 const express = require('express'),
       app = express(),
       bcrypt = require('bcrypt-nodejs'),
       cors = require('cors'),
-    //   PORT = process.env.PORT,
+    // PORT = process.env.PORT, Will use for deployment
       knex = require('knex');
 
 const register = require('./controllers/register');
